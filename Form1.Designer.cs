@@ -2,7 +2,7 @@
 {
     partial class Form1
     {
-        // Controls
+       
         private System.Windows.Forms.Label lblStudentName;
         private System.Windows.Forms.TextBox txtStudentName;
         private System.Windows.Forms.Label lblStudentNo;
@@ -52,9 +52,7 @@
         private System.Windows.Forms.Label lblAmountDue;
         private System.Windows.Forms.TextBox txtAmountDue;
 
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
@@ -72,10 +70,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+       
         private void InitializeComponent()
         {
             this.lblStudentName = new System.Windows.Forms.Label();
@@ -133,34 +128,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvSchedule)).BeginInit();
             this.groupFees.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblStudentName
-            // 
+           
             this.lblStudentName.AutoSize = true;
             this.lblStudentName.Location = new System.Drawing.Point(12, 12);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(78, 13);
             this.lblStudentName.TabIndex = 0;
             this.lblStudentName.Text = "Student Name:";
-            // 
-            // txtStudentName
-            // 
+          
             this.txtStudentName.Location = new System.Drawing.Point(110, 10);
             this.txtStudentName.Name = "txtStudentName";
             this.txtStudentName.Size = new System.Drawing.Size(250, 20);
             this.txtStudentName.TabIndex = 1;
-            // 
-            // lblStudentNo
-            // 
+        
             this.lblStudentNo.AutoSize = true;
             this.lblStudentNo.Location = new System.Drawing.Point(380, 12);
             this.lblStudentNo.Name = "lblStudentNo";
             this.lblStudentNo.Size = new System.Drawing.Size(67, 13);
             this.lblStudentNo.TabIndex = 2;
             this.lblStudentNo.Text = "Student No.:";
-            // 
-            // txtStudentNo
-            // 
+            
             this.txtStudentNo.Location = new System.Drawing.Point(450, 10);
             this.txtStudentNo.Name = "txtStudentNo";
             this.txtStudentNo.Size = new System.Drawing.Size(140, 20);
